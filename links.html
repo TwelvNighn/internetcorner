@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='icon' type='image/x-icon' href='img/favicon.ico'>
+    <title>Links</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="clickaudio.js"></script>
+    </head>
+<body>
+    <audio id="buttonClick" src="click.wav"></audio>
+<div id="Header">
+    <h1 id='heading'>Links</h1>
+    <hr class="solid">
+    <ul>
+        <li style="float:left;"><a href="javascript:delay('index.html')" onclick="document.getElementById('buttonClick').play()">Index</a></li>
+        <li style="float:left;"><a href="javascript:delay('page2.html')" onclick="document.getElementById('buttonClick').play()">Other</a></li>
+        <li style="float:left;"><a href="javascript:delay('projects.html')" onclick="document.getElementById('buttonClick').play()">Projects</a></li>
+        <li class="activeLink" style="float:left;"><a href="links.html" >Links</a></li>
+    </ul>
+    <hr class="solid">
+</div>
+
+<div id="main" style="overflow:auto;">
+    <table align="center" style="border:1px solid transparent; padding:5px;">
+    <tr>
+        <td><h2 style="color:#2E68A2; text-align: center; font-size: 35px;"><a href="https://www.youtube.com/@twelvnighn129" target="_blank" style="text-decoration: none;">YouTube</a></h2></td>
+        <td><h2 style="color:#2E68A2; text-align: center; font-size: 35px;"><a href="https://www.instagram.com/twelvnighn129/" target="_blank" style="text-decoration: none;">Instagram</a></h2></td>
+    </tr>
+    <tr>
+        <td><h2 style="color:#2E68A2; text-align: center; font-size: 35px;"><a href="https://www.steamcommunity.com/id/twelvnighn129/" target="_blank" style="text-decoration: none;">Steam</a></h2></td>
+        <td><h2 style="color:#2E68A2; text-align: center; font-size: 35px;"><a href="https://www.reddit.com/user/twelvnighn999/" target="_blank" style="text-decoration: none;">Reddit</a></h2></td>
+    </tr>
+    </table>
+</div>
+
+</body>
+</html>

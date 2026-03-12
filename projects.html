@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='icon' type='image/x-icon' href='img/favicon.ico'>
+    <title>My Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="clickaudio.js"></script>
+    </head>
+<body>
+    <audio id="buttonClick" src="click.wav"></audio>
+<div id="Header">
+    <h1 id='heading'>My Projects</h1>
+    <hr class="solid">
+    <ul>
+        <li style="float:left;"><a href="javascript:delay('index.html')" onclick="document.getElementById('buttonClick').play()">Index</a></li>
+        <li style="float:left;"><a href="javascript:delay('page2.html')" onclick="document.getElementById('buttonClick').play()">Other</a></li>
+        <li style="float:left;"><a class="activeLink" href="projects.html">Projects</a></li>
+        <li style="float:left;"><a href="javascript:delay('links.html')" onclick="document.getElementById('buttonClick').play()">Links</a></li>
+    </ul>
+    <hr class="solid">
+</div>
+<div id="main">
+    <p class="text">Currently, I am not working on any personal projects. <br>But, whenever I will work on something, it will be updated here.
+    </p>
+</div>
+</body>
+</html>
